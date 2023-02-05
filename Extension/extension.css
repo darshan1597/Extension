@@ -3,6 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     min-width: 400px;
+    background: #0c192c;
 }
 #input-el{
     width: 100%;
@@ -10,24 +11,30 @@ body{
     margin-bottom: 10px;
     padding: 10px;
     box-sizing: border-box;
-    border: 2px solid #5f9341;
+    border-radius: 50px;
 }
 button{
     font-weight: bold;
-    background: #5f9341;
+    background: #0c192c;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #5f9341;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    color: #0c192c;
+    background-color: whitesmoke;
 }
 #input-el:focus{
-    background: rgb(219, 239, 239);
+    background: whitesmoke;
 }
 #dlt-btn{
     background: white;
     font-weight: bold;
-    color: #5f9341;
+    background: #ff0000;
     padding: 10px 20px;
-    border: 2px solid #5f9341;
+    border: 2px solid #ff0000;
 }
 ul{
     list-style: none;
